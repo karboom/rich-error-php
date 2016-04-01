@@ -1,0 +1,20 @@
+{
+    "name": "karboom/rich-error",
+    "description": "Easy way to handle error with PHP.",
+    "require": {
+        "mustangostang/spyc": "0.5.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "karboom",
+            "email": "mail@karboom.me"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload" : {
+        "psr-4" : {"Karboom\\": ""}
+    }
+}
